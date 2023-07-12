@@ -27,8 +27,7 @@ def merge_repo(repo_url, repo_name):
     subprocess.run(['git', 'remote', 'remove', repo_name])
 
 # Merge repositories one by one
-merge_repo('https://github.com/2005balaji/Js-closures.git', 'Js-closures')
-# merge_repo('https://github.com/2005balaji/lab--on--react-props.git', 'lab--on--react-props')
+merge_repo('https://github.com/2005balaji/lab--on--react-pr ops.git', 'lab--on--react-props')
 # merge_repo('https://github.com/2005balaji/Lab-on-GRID.git', 'Lab-on-GRID')
 # merge_repo('https://github.com/2005balaji/Lab-on-Js-Promise.git', 'Lab-on-Js-Promise')
 # ... repeat the above line for each repository in the list
